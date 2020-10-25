@@ -1,10 +1,7 @@
 {
   "name": "adorable-avatars",
-  "version": "0.2.2-alpha.0",
+  "version": "0.0.1",
   "description": "",
-  "engines": {
-    "node": "9.4.x"
-  },
   "scripts": {
     "test": "mocha --exit",
     "build": "tsc && npm run build:assets",
@@ -14,8 +11,6 @@
     "dev:lint": "onchange -i -k 'src/**/*.ts' -- tslint -t stylish 'src/**/*.ts'",
     "prepublishOnly": "npm run build"
   },
-  "author": "",
-  "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -23,7 +18,7 @@
   ],
   "dependencies": {
     "avatars-utils": "0.0.4",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "sharp": "^0.24.1",
     "uuid": "^3.3.2"
   },
